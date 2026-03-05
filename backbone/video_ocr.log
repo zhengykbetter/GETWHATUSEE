@@ -1809,3 +1809,99 @@
 2026-03-05 11:06:07 - INFO - run_video_ocr:369 - GPU状态：利用率=39% | 显存=1221/6144MB
 2026-03-05 11:06:07 - INFO - run_video_ocr:376 - frame_22s_22.jpg 结果解析完成，耗时0.000s
 2026-03-05 11:06:07 - INFO - run_video_ocr:438 - 处理完成！共提取23帧，纯净文本文件：video_ocr_results/pure_ocr_text.txt
+2026-03-05 14:10:38 - INFO - init_gpu_monitor:107 - GPU监控初始化成功，检测到1块GPU
+2026-03-05 14:10:38 - INFO - run_video_ocr:304 - 视频信息：帧率=60.0 | 总帧数=1054 | 总时长=17.6秒
+2026-03-05 14:10:38 - INFO - run_video_ocr:305 - 输出目录：video_ocr_results | 置信度阈值=0.8
+2026-03-05 14:10:38 - INFO - init_ocr_model:166 - 初始化OCR模型（mobile版），det_thresh=0.7
+2026-03-05 14:10:41 - INFO - init_ocr_model:188 - OCR模型加载完成，耗时2.51秒
+2026-03-05 14:10:41 - INFO - run_video_ocr:337 - 处理第1帧：frame_0s_0.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:41 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:42 - INFO - run_video_ocr:363 - frame_0s_0.jpg OCR识别完成，耗时1.066s
+2026-03-05 14:10:42 - INFO - run_video_ocr:369 - GPU状态：利用率=60% | 显存=1360/6144MB
+2026-03-05 14:10:42 - INFO - run_video_ocr:376 - frame_0s_0.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:42 - INFO - run_video_ocr:337 - 处理第2帧：frame_1s_1.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:42 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:43 - INFO - run_video_ocr:363 - frame_1s_1.jpg OCR识别完成，耗时0.571s
+2026-03-05 14:10:43 - INFO - run_video_ocr:369 - GPU状态：利用率=63% | 显存=1360/6144MB
+2026-03-05 14:10:43 - INFO - run_video_ocr:376 - frame_1s_1.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:43 - INFO - run_video_ocr:337 - 处理第3帧：frame_2s_2.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:43 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:44 - INFO - run_video_ocr:363 - frame_2s_2.jpg OCR识别完成，耗时0.709s
+2026-03-05 14:10:44 - INFO - run_video_ocr:369 - GPU状态：利用率=53% | 显存=1592/6144MB
+2026-03-05 14:10:44 - INFO - run_video_ocr:376 - frame_2s_2.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:44 - INFO - run_video_ocr:337 - 处理第4帧：frame_3s_3.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:44 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:45 - INFO - run_video_ocr:363 - frame_3s_3.jpg OCR识别完成，耗时0.747s
+2026-03-05 14:10:45 - INFO - run_video_ocr:369 - GPU状态：利用率=61% | 显存=1592/6144MB
+2026-03-05 14:10:45 - INFO - run_video_ocr:376 - frame_3s_3.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:45 - INFO - run_video_ocr:337 - 处理第5帧：frame_4s_4.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:45 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:45 - INFO - run_video_ocr:363 - frame_4s_4.jpg OCR识别完成，耗时0.680s
+2026-03-05 14:10:45 - INFO - run_video_ocr:369 - GPU状态：利用率=69% | 显存=1592/6144MB
+2026-03-05 14:10:45 - INFO - run_video_ocr:376 - frame_4s_4.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:46 - INFO - run_video_ocr:337 - 处理第6帧：frame_5s_5.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:46 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:46 - INFO - run_video_ocr:363 - frame_5s_5.jpg OCR识别完成，耗时0.523s
+2026-03-05 14:10:46 - INFO - run_video_ocr:369 - GPU状态：利用率=72% | 显存=1832/6144MB
+2026-03-05 14:10:46 - INFO - run_video_ocr:376 - frame_5s_5.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:46 - INFO - run_video_ocr:337 - 处理第7帧：frame_6s_6.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:46 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:47 - INFO - run_video_ocr:363 - frame_6s_6.jpg OCR识别完成，耗时0.796s
+2026-03-05 14:10:47 - INFO - run_video_ocr:369 - GPU状态：利用率=56% | 显存=1832/6144MB
+2026-03-05 14:10:47 - INFO - run_video_ocr:376 - frame_6s_6.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:47 - INFO - run_video_ocr:337 - 处理第8帧：frame_7s_7.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:47 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:48 - INFO - run_video_ocr:363 - frame_7s_7.jpg OCR识别完成，耗时0.782s
+2026-03-05 14:10:48 - INFO - run_video_ocr:369 - GPU状态：利用率=60% | 显存=1832/6144MB
+2026-03-05 14:10:48 - INFO - run_video_ocr:376 - frame_7s_7.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:48 - INFO - run_video_ocr:337 - 处理第9帧：frame_8s_8.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:48 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:49 - INFO - run_video_ocr:363 - frame_8s_8.jpg OCR识别完成，耗时0.829s
+2026-03-05 14:10:49 - INFO - run_video_ocr:369 - GPU状态：利用率=61% | 显存=2084/6144MB
+2026-03-05 14:10:49 - INFO - run_video_ocr:376 - frame_8s_8.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:49 - INFO - run_video_ocr:337 - 处理第10帧：frame_9s_9.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:49 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:50 - INFO - run_video_ocr:363 - frame_9s_9.jpg OCR识别完成，耗时0.830s
+2026-03-05 14:10:50 - INFO - run_video_ocr:369 - GPU状态：利用率=66% | 显存=2084/6144MB
+2026-03-05 14:10:50 - INFO - run_video_ocr:376 - frame_9s_9.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:50 - INFO - run_video_ocr:337 - 处理第11帧：frame_10s_10.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:50 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:51 - INFO - run_video_ocr:363 - frame_10s_10.jpg OCR识别完成，耗时0.743s
+2026-03-05 14:10:51 - INFO - run_video_ocr:369 - GPU状态：利用率=62% | 显存=2084/6144MB
+2026-03-05 14:10:51 - INFO - run_video_ocr:376 - frame_10s_10.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:51 - INFO - run_video_ocr:337 - 处理第12帧：frame_11s_11.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:51 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:52 - INFO - run_video_ocr:363 - frame_11s_11.jpg OCR识别完成，耗时0.445s
+2026-03-05 14:10:52 - INFO - run_video_ocr:369 - GPU状态：利用率=69% | 显存=2084/6144MB
+2026-03-05 14:10:52 - INFO - run_video_ocr:376 - frame_11s_11.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:52 - INFO - run_video_ocr:337 - 处理第13帧：frame_12s_12.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:52 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:52 - INFO - run_video_ocr:363 - frame_12s_12.jpg OCR识别完成，耗时0.414s
+2026-03-05 14:10:52 - INFO - run_video_ocr:369 - GPU状态：利用率=69% | 显存=2084/6144MB
+2026-03-05 14:10:52 - INFO - run_video_ocr:376 - frame_12s_12.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:52 - INFO - run_video_ocr:337 - 处理第14帧：frame_13s_13.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:52 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:53 - INFO - run_video_ocr:363 - frame_13s_13.jpg OCR识别完成，耗时0.460s
+2026-03-05 14:10:53 - INFO - run_video_ocr:369 - GPU状态：利用率=65% | 显存=2084/6144MB
+2026-03-05 14:10:53 - INFO - run_video_ocr:376 - frame_13s_13.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:53 - INFO - run_video_ocr:337 - 处理第15帧：frame_14s_14.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:53 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:53 - INFO - run_video_ocr:363 - frame_14s_14.jpg OCR识别完成，耗时0.469s
+2026-03-05 14:10:53 - INFO - run_video_ocr:369 - GPU状态：利用率=66% | 显存=2084/6144MB
+2026-03-05 14:10:53 - INFO - run_video_ocr:376 - frame_14s_14.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:54 - INFO - run_video_ocr:337 - 处理第16帧：frame_15s_15.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:54 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:54 - INFO - run_video_ocr:363 - frame_15s_15.jpg OCR识别完成，耗时0.466s
+2026-03-05 14:10:54 - INFO - run_video_ocr:369 - GPU状态：利用率=66% | 显存=2084/6144MB
+2026-03-05 14:10:54 - INFO - run_video_ocr:376 - frame_15s_15.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:54 - INFO - run_video_ocr:337 - 处理第17帧：frame_16s_16.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:54 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:55 - INFO - run_video_ocr:363 - frame_16s_16.jpg OCR识别完成，耗时0.440s
+2026-03-05 14:10:55 - INFO - run_video_ocr:369 - GPU状态：利用率=68% | 显存=2084/6144MB
+2026-03-05 14:10:55 - INFO - run_video_ocr:376 - frame_16s_16.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:55 - INFO - run_video_ocr:337 - 处理第18帧：frame_17s_17.jpg，原始分辨率=(1600, 2560)
+2026-03-05 14:10:55 - INFO - optimize_frame_preprocessing:157 - 帧预处理完成：缩放至1152×720（原2560×1600，比例0.45） | 转灰度图（3通道→1通道）
+2026-03-05 14:10:55 - INFO - run_video_ocr:363 - frame_17s_17.jpg OCR识别完成，耗时0.543s
+2026-03-05 14:10:55 - INFO - run_video_ocr:369 - GPU状态：利用率=69% | 显存=2084/6144MB
+2026-03-05 14:10:55 - INFO - run_video_ocr:376 - frame_17s_17.jpg 结果解析完成，耗时0.000s
+2026-03-05 14:10:55 - INFO - run_video_ocr:438 - 处理完成！共提取18帧，纯净文本文件：video_ocr_results/pure_ocr_text.txt
